@@ -16,4 +16,7 @@ public class CameraController : MonoBehaviour
     {
         transform.position = new Vector3(Mathf.Clamp( playerTransform.position.x,minX,maxX), transform.position.y, transform.position.z);
     }
+
+
+//blank
 }
